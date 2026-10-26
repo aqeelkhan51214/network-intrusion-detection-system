@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+.build/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+
+# Logs & caches
+*.log
+*.pid
+*.pid.lock
+.cache/
+pytest_cache/
+.coverage
+htmlcov/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Flask/Scapy app artifacts
+*.sqlite3
+instance/
+
+# Visualization outputs
+*.png
+*.svg
+*.pdf
+
+# Node (if any future UI tooling)
+node_modules/
